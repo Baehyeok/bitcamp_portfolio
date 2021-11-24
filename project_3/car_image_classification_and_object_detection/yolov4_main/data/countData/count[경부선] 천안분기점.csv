@@ -1,0 +1,291 @@
+,0
+0,{'car': 2}
+1,{'car': 1}
+2,{'car': 1}
+3,{'car': 1}
+4,{'car': 2}
+5,{'car': 2}
+6,{'car': 2}
+7,{'car': 1}
+8,"{'car': 2, 'truck': 1}"
+9,{'car': 2}
+10,{'car': 1}
+11,{'car': 1}
+12,{'car': 1}
+13,{'car': 2}
+14,{'car': 1}
+15,{'car': 1}
+16,{'car': 1}
+17,{'car': 1}
+18,{'car': 1}
+19,{'car': 2}
+20,{'car': 1}
+21,{'car': 1}
+22,{'car': 1}
+23,{'car': 1}
+24,{'car': 1}
+25,{'car': 3}
+26,{'car': 1}
+27,{}
+28,{'car': 2}
+29,{'car': 1}
+30,{'car': 1}
+31,{'car': 2}
+32,{'car': 1}
+33,{'tvmonitor': 1}
+34,{}
+35,{'car': 1}
+36,{}
+37,{}
+38,{'car': 1}
+39,{'car': 1}
+40,{}
+41,{}
+42,{}
+43,{}
+44,{'car': 1}
+45,"{'bus': 1, 'car': 1}"
+46,{}
+47,{'car': 2}
+48,{'car': 3}
+49,"{'car': 1, 'bus': 1}"
+50,{'car': 2}
+51,{'car': 3}
+52,"{'car': 3, 'bus': 1}"
+53,{'bus': 1}
+54,"{'car': 2, 'bus': 1, 'truck': 1}"
+55,{}
+56,{'truck': 1}
+57,{'truck': 1}
+58,"{'car': 1, 'bus': 1}"
+59,{'car': 2}
+60,{}
+61,{'car': 2}
+62,{'car': 5}
+63,{'car': 4}
+64,{'car': 4}
+65,{'car': 3}
+66,{}
+67,{'car': 4}
+68,{'car': 5}
+69,{'car': 3}
+70,{'car': 4}
+71,{'car': 1}
+72,{'car': 1}
+73,{'car': 1}
+74,{'car': 1}
+75,{'car': 2}
+76,{'car': 1}
+77,{'car': 2}
+78,{'car': 1}
+79,{'car': 2}
+80,{'car': 1}
+81,{'car': 1}
+82,{'car': 3}
+83,{'car': 3}
+84,{'car': 4}
+85,{'car': 1}
+86,{'car': 1}
+87,{'car': 3}
+88,{'car': 3}
+89,{'car': 1}
+90,{'car': 1}
+91,{'car': 1}
+92,{'car': 1}
+93,{'car': 2}
+94,{'car': 2}
+95,{}
+96,{'car': 3}
+97,{'car': 2}
+98,"{'bus': 1, 'truck': 1, 'car': 1}"
+99,"{'bus': 1, 'truck': 1}"
+100,"{'bus': 1, 'truck': 1, 'car': 2}"
+101,{'car': 4}
+102,{'car': 3}
+103,{'car': 3}
+104,{'car': 2}
+105,"{'person': 1, 'car': 1}"
+106,{'car': 2}
+107,{'car': 2}
+108,{'car': 1}
+109,{'car': 1}
+110,{'car': 2}
+111,{'car': 1}
+112,{'car': 2}
+113,{'car': 2}
+114,{'car': 1}
+115,{'car': 1}
+116,{'car': 1}
+117,{'car': 1}
+118,{}
+119,{'car': 1}
+120,{'car': 1}
+121,{'car': 2}
+122,{'car': 1}
+123,{'traffic light': 1}
+124,"{'traffic light': 1, 'car': 1}"
+125,"{'traffic light': 1, 'car': 1}"
+126,"{'traffic light': 1, 'car': 1}"
+127,"{'traffic light': 1, 'car': 1}"
+128,"{'traffic light': 1, 'car': 2}"
+129,"{'traffic light': 1, 'car': 2}"
+130,"{'traffic light': 1, 'car': 1}"
+131,"{'traffic light': 1, 'car': 1}"
+132,"{'traffic light': 1, 'car': 3}"
+133,"{'traffic light': 1, 'car': 2}"
+134,"{'car': 3, 'traffic light': 1}"
+135,"{'traffic light': 1, 'car': 4}"
+136,"{'car': 3, 'traffic light': 1}"
+137,"{'car': 5, 'traffic light': 1}"
+138,"{'car': 2, 'traffic light': 1}"
+139,"{'car': 2, 'traffic light': 1}"
+140,"{'car': 4, 'traffic light': 2}"
+141,"{'car': 4, 'traffic light': 1}"
+142,"{'car': 5, 'traffic light': 1}"
+143,"{'car': 6, 'traffic light': 1}"
+144,"{'car': 7, 'traffic light': 1}"
+145,"{'car': 6, 'traffic light': 1}"
+146,"{'car': 6, 'traffic light': 1}"
+147,"{'car': 6, 'traffic light': 1}"
+148,"{'car': 6, 'traffic light': 1}"
+149,"{'car': 6, 'traffic light': 1}"
+150,"{'traffic light': 1, 'car': 3}"
+151,"{'traffic light': 1, 'car': 4}"
+152,"{'car': 1, 'traffic light': 1, 'bus': 1}"
+153,"{'truck': 1, 'car': 2, 'traffic light': 1, 'bus': 1}"
+154,"{'traffic light': 1, 'car': 2, 'truck': 1, 'bus': 1}"
+155,"{'bus': 1, 'traffic light': 2, 'car': 3}"
+156,"{'bus': 1, 'car': 4, 'traffic light': 1}"
+157,"{'bus': 1, 'traffic light': 1, 'car': 4}"
+158,"{'traffic light': 1, 'bus': 1}"
+159,"{'traffic light': 1, 'car': 1, 'bus': 1}"
+160,{'bus': 1}
+161,{'traffic light': 1}
+162,{'traffic light': 1}
+163,"{'traffic light': 1, 'car': 1}"
+164,"{'traffic light': 1, 'car': 1}"
+165,"{'car': 2, 'traffic light': 1}"
+166,"{'traffic light': 1, 'car': 1}"
+167,"{'traffic light': 1, 'car': 2}"
+168,{'car': 2}
+169,{'car': 1}
+170,{'car': 3}
+171,{'car': 3}
+172,{'car': 3}
+173,{'car': 2}
+174,{'car': 2}
+175,{'car': 1}
+176,{'car': 2}
+177,{}
+178,{}
+179,{}
+180,{}
+181,{}
+182,{'car': 1}
+183,{'car': 1}
+184,{'car': 2}
+185,{}
+186,{}
+187,{'traffic light': 1}
+188,{'traffic light': 1}
+189,{'car': 1}
+190,{'traffic light': 1}
+191,{'traffic light': 1}
+192,{'car': 2}
+193,{'car': 1}
+194,{}
+195,{}
+196,{'car': 2}
+197,{'truck': 1}
+198,{}
+199,{}
+200,{'car': 2}
+201,{'car': 1}
+202,{'car': 1}
+203,{'car': 2}
+204,{'car': 4}
+205,{'car': 3}
+206,{'car': 2}
+207,{'car': 5}
+208,"{'car': 4, 'person': 1}"
+209,"{'car': 4, 'person': 1}"
+210,"{'car': 2, 'person': 1}"
+211,"{'car': 2, 'person': 1}"
+212,{'car': 2}
+213,{'car': 2}
+214,{'car': 4}
+215,{'car': 3}
+216,{'car': 3}
+217,{'car': 3}
+218,{'car': 5}
+219,{'car': 5}
+220,{'car': 4}
+221,{'car': 4}
+222,"{'car': 4, 'traffic light': 1}"
+223,{'car': 3}
+224,{'car': 5}
+225,{'car': 4}
+226,{'car': 3}
+227,{'car': 3}
+228,{'car': 2}
+229,{'car': 2}
+230,{'car': 2}
+231,{'car': 3}
+232,{'car': 2}
+233,{'car': 2}
+234,{'car': 2}
+235,{'car': 2}
+236,{'car': 2}
+237,{'car': 2}
+238,{'car': 4}
+239,{'car': 2}
+240,{'car': 3}
+241,{'car': 3}
+242,{'car': 5}
+243,{'car': 2}
+244,{'car': 1}
+245,{}
+246,{}
+247,{}
+248,{'car': 2}
+249,{}
+250,{'traffic light': 1}
+251,{'traffic light': 1}
+252,{'car': 1}
+253,{'car': 2}
+254,{'car': 1}
+255,{'car': 1}
+256,{}
+257,{}
+258,{'car': 1}
+259,{'car': 1}
+260,{'car': 1}
+261,{}
+262,{'car': 2}
+263,{}
+264,{}
+265,{'car': 2}
+266,{'car': 1}
+267,{'car': 2}
+268,{'car': 2}
+269,{'car': 1}
+270,{'car': 1}
+271,{'car': 1}
+272,{}
+273,{'car': 1}
+274,{'car': 1}
+275,{'car': 2}
+276,{'car': 2}
+277,{}
+278,{'car': 1}
+279,{'car': 2}
+280,{}
+281,{'car': 1}
+282,{'car': 1}
+283,{'car': 2}
+284,{}
+285,{'car': 2}
+286,{'car': 2}
+287,{'car': 1}
+288,{'car': 1}
+289,{'car': 1}

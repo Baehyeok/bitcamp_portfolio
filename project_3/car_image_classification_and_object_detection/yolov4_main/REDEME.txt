@@ -1,0 +1,31 @@
+PROJECT_03
+
+사용 환경 
+python = 3.8
+tensorflow = 2.5.0
+opencv = 4.5.3
+
+사용 모델: YOLOV4
+
+test 환경
+weight, height = 256,256 (32배수)
+classes = 2
+filters=21
+weights = darknet53.conv.74
+
+ori 환경
+weight, height = 320,320 (32배수)
+classes = 84
+filters=267
+weights = yolov4.conv.137
+
+
+
+
+
+
+
+
+천안 위도 경도
+Min_X 127.0955868, Min_Y 36.75464338
+Max_X 127.2125905, Max_Y 36.86849361

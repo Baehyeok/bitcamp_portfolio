@@ -1,0 +1,11 @@
+/* Option Layout */
+.class1 {
+    align-items: center;
+}
+.container{
+    align-items :right;
+}
+.row{
+    justify-content: center
+}
+

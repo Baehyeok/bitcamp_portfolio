@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>회원 가입</title>
+    <link rel="icon" href="/static/images/icon.png">
+
+</head>
+<body>
+{% load static %}
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div class="card mt-5">
+            
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+
+        <!-- 폼 안에다가 입력해줘야한다. (안써주면 에러발생) csrf_token 폼의 경우에는 , 데이터를 서버에 전달하는 기능.이때 암호화된 키를 숨겨놓아 크로스도메인을 막기 위함. -->
+        <!-- bootstrap -component - forms -->
+                <div class="card-body">
+                    <div class="card-title py-3">
+                        <h3>Registration for a free account</h3>
+                    </div>
+                    <div class="container">
+                        <div class="row mt-3">
+                            <div class="col-12 ">
+                                <div class="row mt-3">
+                                    <div class="col-12 ">
+                                        <form method="POST" action=".">
+                                            {% csrf_token %}
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="username" placeholder="username"
+                                                    name="username" check_result = "fail" required />
+                                                <!-- 이 name 값으로 정보가 전달된다 -->
+                                            </div>
+                                            <div class="invalid-feedback" style="display:none">
+                                            
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                                            </div>
+                                            <div class="emailFeedBackArea invalid-feedback" style= "display:none">
+                                                
+                                            </div>
+
+
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="password" placeholder="Password"
+                                                    name="password" autocomplete >
+                                            </div>
+                                            <div class="passwordFeedBackArea invalid-feedback" style= "display:none">
+                                                
+                                            </div>
+                                            
+
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="re_password" placeholder="Confirm password"
+                                                    name="re_password" autocomplete  >
+                                            </div>
+                                            <div class="repasswordFeedBackArea invalid-feedback" style= "display:none">
+                                                
+                                            </div>
+                                            <button type="submit" value = "Register" id="submit-btn" class="btn btn-block btn-primary submit-btn">Register</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                </div>
+        </div>
+    </div>
+<script src="{% static 'js/register.js' %}"></script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

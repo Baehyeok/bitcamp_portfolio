@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>share</title>
+
+
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css" />
+    
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/static/css/share.css">
+    <link href="/static/css/responsive.css" rel="stylesheet" />
+
+    <!-- Template -->
+	<link href="/static/css/view/nav.css" rel="stylesheet">
+    <link rel="icon" href="/static/images/icon.png">
+<style>
+    
+.polygon-chart {
+  display: block;
+  margin: 50px auto;
+  width: 400px;
+  height: 400px;
+}
+</style>
+    
+</head>
+<body>
+
+    
+    <!-- Navigation -->
+    <div id='app-play-nav'>
+        <df-play-nav></df-play-nav>
+    </div>  <!-- End Navigation -->
+
+    <!-- Play Video Share   -->
+    <div id='result-share'>
+
+        <div class="contact-div">
+            <div class="container">
+                <h2>Play Video Share</h2>
+            </div>    
+        </div>
+
+        <!-- contact section -->
+        <section class="contact_section">
+            <div class="share-container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="detail-box">
+                            <div class="heading_container">
+                                <h4 class="share_user"><img src="/static/images/user.png" alt="" class="user_img">User Name</h4>
+                                <h3>Title : Aurora(Today Romeo Remix)</h3>
+                                <h4>Artist : k-391</h4>
+                            </div>
+                            <div class='button-line line-center line-bottom content-visible'>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="play-video-preview" class="col-md-6">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                    </div>                    
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="polygon-chart" class="polygon-chart">
+                            <div class="polygon-chart-label">
+                                <span class="label-head-body">Head-Body</span>
+                                <span class="label-left-arm">Left-Arm</span>
+                                <span class="label-right-arm">Right-Arm</span>
+                                <span class="label-left-leg">Left-Leg</span>
+                                <span class="label-right-leg">Right-Leg</span>
+                            </div>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <div class="col-md-6">
+                        <div class="contact-form">
+                            <h5>
+                                Score : 2342
+                            </h5>
+                            <form action="" method="post">
+                                <div>
+                                    <input type="text" placeholder="Title" />
+                                </div>
+                                <div>
+                                    <input type="text" placeholder="Content" class="input_content" />
+                                </div>
+                                <div>
+                                    <input type="text" placeholder="HashTag" />
+                                </div>
+                                
+                                <div class="d-flex justify-content-center">
+                                    <a href='/community/view' id='sendButton' onsubmit="">
+                                        <div class="w-btn w-btn-gra1">Share</div>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br/><br/><br/>
+    </div>
+    
+
+    <!-- View Template -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+    <script src="/static/js/view/nav.js"></script>
+    
+    <script src="/static/js/scripts.js"></script>
+
+    <script src="/static/lib/PolygonChart.umd.js"></script>
+    <script src="/static/js/play_result.js"></script>
+    <script>
+        // // Pentagon
+        const myData = [
+            [
+                0.6119768296901937, 0.2724477365138749, 0.239318715565223, 0.8984415079405608, 0.6583948674656563
+            ],
+            // [
+            //     0.0949616836216769, 0.3719078227713477, 0.34293616595227383, 0.460621296000123, 0.7063279854775499
+            // ],
+            // [
+            //     0.8504876012507432, 0.2653933980482446, 0.3178500882778421, 0.14247086217571958, 0.37765360881841503
+            // ],
+            // [
+            //     0.5424735313476508, 0.8882713360214234, 0.17852702924856967, 0.9788178448900138, 0.42509719540882585
+            // ],
+            // [
+            //     0.404222839154583, 0.05955589031331465, 0.45782102526548796, 0.5153100462187783, 0.17176626488842728
+            // ]
+        ]
+
+
+        let polygon_chart_el = document.getElementById("polygon-chart");
+
+        create_polygon_chart(polygon_chart_el, myData).init()
+    </script>
+
+
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+</body>
+</html>

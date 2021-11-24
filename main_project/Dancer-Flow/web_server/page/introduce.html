@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Your description">
+  <meta name="author" content="Your name">
+
+  <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+  <meta property="og:site_name" content="" /> <!-- website name -->
+  <meta property="og:site" content="" /> <!-- website link -->
+  <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
+  <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+  <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+  <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+  <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+  <!-- Webpage Title -->
+  <title>Introduce</title>
+
+  <!-- Styles -->
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/css/fontawesome-all.min.css" rel="stylesheet">
+  <link href="/static/css/swiper.css" rel="stylesheet">
+  <link href="/static/css/main_styles.css" rel="stylesheet">
+  <link href="/static/css/main_custum.css" rel="stylesheet">
+  <link href="/static/css/view/nav.css" rel="stylesheet">
+
+  <!-- Favicon  -->
+  <link rel="icon" href="/static/images/icon.png">
+
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <!-- <div id='app-index-nav'>
+        <df-index-nav></df-index-nav>
+    </div> -->
+
+    
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+    <div class="container">
+      <!-- Image Logo -->
+      <a class="navbar-brand logo-image" href="/"><img src="/static/images/logo.png"
+          alt="alternative"><span></span></a>
+
+      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ms-auto navbar-nav-scroll">
+          <li class="nav-item">
+            <a class="nav-link" href="/introduce">Introduce</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/aboutus">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contactus">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/community">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/ranking">Ranking</a>
+          </li>
+          {% if request.session.user %}
+          <li class="nav-item">
+            <!-- 유저 로고 만들고 유저페이지 이동 및 로그아웃 만들기 -->
+            <a class="btn-solid-reg sign-btn" href="/user">My Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn-solid-reg sign-btn" href="/user/logout">Logout</a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a class="btn-solid-reg sign-btn" href="/user/register">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn-solid-reg sign-btn" href="/user/login">Login</a>
+          </li>
+          {% endif %}
+        </ul>
+      </div> <!-- end of navbar-collapse -->
+    </div> <!-- end of container -->
+  </nav> <!-- end of navbar -->
+  <!-- End Navigation -->
+
+
+    <!-- Introduce -->
+    <div class="basic-3 bg-gray">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 col-xl-7">
+                  <div class="image-container">
+                      <img class="img-fluid" src='/static/images/8.jpg' alt="alternative">
+                  </div> <!-- end of image-container -->
+              </div> <!-- end of col -->
+              <div class="col-lg-6 col-xl-5">
+                  <div class="text-container">
+                      <h2>Introduce</h2>
+                      <p style = "text-align: left; direction: ltr; text-justify: distribute;">Dancer Flow provides scoring service for dancers of all levels by measuring motion similarity
+                          in real time. Players can see how much their movements accurate to professional dancer.<br/> <br/>
+                          Our open source vision model use for estimating poses of body parts such as head, shoulders,
+                          elbows, and hands. Then, we compare the video to your pose using mmpose and mmdetection to determine how
+                          accurate their movements or pose was.</p>
+                  </div> <!-- end of text-container -->
+              </div> <!-- end of col -->
+          </div> <!-- end of row -->
+      </div> <!-- end of container -->
+  </div> <!-- end of basic-3 -->
+  <!-- end of project 2 -->
+
+
+    <!-- How to -->
+    <div id='howto' class="basic-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h2 class="h2-heading">How To Play</h2>
+                  <hr class="hr-heading">
+              </div> <!-- end of col -->
+          </div> <!-- end of row -->
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="step-container" style="
+                  margin-bottom: 0px;">
+                      <div class="step" >&nbsp;&nbsp;&nbsp;<img class="img-fluid" src='/static/images/step_01.png' alt="alternative" style ="margin: 0px 5px 0px 0px;"> Step 1</div>
+                      <i class="fas fa-chevron-right"></i>
+                      <div class="step">&nbsp;&nbsp;&nbsp;<img class="img-fluid" src='/static/images/step_02.png' alt="alternative" style = "position: relative; right: 12px; margin: 0px 0px 0px 10px;"> Step 2</div>
+                      <i class="fas fa-chevron-right"></i>
+                      <div class="step">&nbsp;&nbsp;&nbsp;<img class="img-fluid" src='/static/images/step_03.png' alt="alternative" style = "position: relative; right: 10px; margin: 0px 0px 0px 10px;"> Step 3</div>
+                  </div> <!-- end of step-container -->
+                  <div style="display : flex;justify-content: space-between;padding-left: 50px;">
+                    <div style = 'text-align: justify;'>Choose "Practice" or "Random" mode <br>to start the game. Then, choose whether <br>play in the real time or upload the file. </div>
+                    <div style = 'padding-right: 40px;'>Setup your display setting.</div>
+                    <div style = 'text-align: justify; padding-right: 65px;'>Get your Dance Performance score<br> and Jam on!</div>
+                  </div>
+              </div> <!-- end of col -->
+          </div> <!-- end of row -->
+      </div> <!-- end of container -->
+  </div> <!-- end of basic-5 -->
+  <!-- end of process -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+  <script src="/static/js/view/nav.js"></script>
+
+</body>
+</html>

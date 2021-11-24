@@ -1,0 +1,38 @@
+<!-- static import -->
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+
+  <!-- <link rel="stylesheet" href="../../static/css/login.css?after"> -->
+  <link rel="stylesheet" href="{% static 'css/login.css' %}">
+  <link rel="icon" href="/static/images/icon.png">
+  
+
+
+</head>
+<body width="100%" height="100%">
+  <form method="POST" class="loginForm">
+    {% csrf_token %}
+    <h2>Login</h2>
+    <div class="idForm">
+      <input type="email" class="id" name="email" id="email" placeholder="Email">
+    </div>
+
+    <div class="passForm">
+      <input type="password" class="pw" placeholder="PW" name="password" id="password">
+    </div>
+    <button type="submit" class="btn btn-primary">LOG IN</button>
+    <br>
+    <span style="color:red;"><strong>{{ error }}</strong> </span>
+    <div class="bottomText">
+      Don't you have ID? <a href="/user/register">sign up</a>
+    </div>
+  </form>
+</body>
+</html>

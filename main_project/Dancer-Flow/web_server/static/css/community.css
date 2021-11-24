@@ -1,0 +1,206 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+html{
+	background: black;
+}
+
+body{
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif'; 
+	transition: all 0.5s;
+    background-color: black;
+	background: linear-gradient(to bottom, black, #280242);
+}
+p {
+	margin-bottom: 0px;
+	font-size: 14px;
+	color: #4a4a4a;
+	line-height: 24px;
+}
+a {
+	text-decoration: none!important;
+}
+
+/* Preview Video */
+.play-preview{
+	margin: 60px 0px 35px 0px;
+	width: 100%;
+}
+
+/* Featured Page Style */
+.featured-page {
+	margin-top: 10rem;
+	margin-bottom: 40px;
+}
+.featured-page .section-heading {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.featured-page #filters {
+	margin-top: 15px;
+	text-align: right;
+}
+.section-heading {
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+/* community 윗 줄 색깔 지정 */
+.section-heading .line-dec {
+	width: 50px;
+	height: 5px;
+	margin-bottom: 5px;
+	background-color: #3a8bcd;
+}
+#filter button {
+	outline: none;
+}
+
+/* 필터 버튼 선택시 색깔 지정 */
+#filter .btn-primary.focus,
+.btn-primary:focus {
+	color: #c13acd!important;
+	box-shadow: none!important;
+}
+#filters .btn-primary {
+	color: #1e1e1e;
+	border: none;
+	font-size: 15px;
+	font-weight: 700;
+	background-color: transparent;
+}
+
+
+/* 게시글 리스트 */
+.featured .featured-item {
+	margin-bottom: 30px;
+	text-decoration: none;
+}
+
+
+
+.featured-item {
+	height: 430px;
+	border-radius: 10px;
+	border: 1px solid #eee;
+	
+	padding: 20px;
+	transition: all 0.5s;
+}
+.featured-item .left{
+	width: 70%;
+	float: left;
+	box-sizing: border-box;
+}
+.featured-item .right{
+	width: 30%;
+	float: right;
+	box-sizing: border-box;
+}
+
+/* 게시글에 마우스를 올리면 변환 */
+.featured-item:hover {
+	color: black;
+	opacity: 0.9;
+}
+.featured-item .feautred-img {
+	width: 100%;
+}
+.featured-item .good{
+	width: 50px;
+	height: 50px;
+	/* margin: 10px; */
+	/* padding: auto; */
+	/* text-align: center; */
+	float: right;
+	margin-right: 25px;
+}
+.featured-item h4 {
+	font-size: 17px;
+	font-weight: 700;
+	color: white;
+	margin-top: 15px;
+	/* transition: all 0.5s; */
+}
+/* .featured-item:hover h4 h6{
+	color: #fff;
+} */
+
+/* socre 점수 색깔 */
+.featured-item .featured-score{
+	text-align: left;
+	color: #fff;
+}
+.featured-item .user-name{
+	padding: 5px;
+	border-top: 3px solid white;
+	text-align: right;
+	color: white;
+}
+
+/* 커뮤니티 정보 글 */
+.featured-item h6 {
+	color: #fff;
+	font-size: 13px;
+	font-weight: 500;
+	margin-bottom: 3px;
+}
+
+/* ////////////마우스를 올렸을 때 색깔 변화///////////////// */
+.featured-item:hover h6,
+.featured-item:hover .featured-score,
+.featured-item:hover h4{
+	color: #4AB4B5;
+	opacity: 0.9;
+	transition: all 0.5s;
+}
+.featured-item:hover .user-name{
+	padding: 5px;
+	border-top: 3px solid #4AB4B5;
+	text-align: right;
+	color: #4AB4B5;
+	opacity: 0.9;
+	transition: all 0.5s;
+}
+/* //////////////////////////////////////////////////// */
+
+
+/* Isotope Transitions
+------------------------------- */
+.isotope,
+.isotope .item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+          transition-property:         transform, opacity;
+}
+
+
+
+@media (max-width: 768px) {
+
+	.subscribe-form .main-content form input.button {
+		margin-top: 20px;
+	}
+	.featured-page #filters {
+		margin-top: 15px;
+		text-align: left;
+	} 
+
+}

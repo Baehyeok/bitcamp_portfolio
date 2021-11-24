@@ -1,0 +1,195 @@
+,0
+0,{'traffic light': 4}
+1,"{'traffic light': 4, 'car': 1}"
+2,{'traffic light': 4}
+3,{'traffic light': 3}
+4,{'traffic light': 4}
+5,{'traffic light': 4}
+6,{'traffic light': 4}
+7,"{'traffic light': 4, 'car': 1}"
+8,"{'traffic light': 4, 'car': 1}"
+9,"{'traffic light': 3, 'car': 1}"
+10,"{'traffic light': 3, 'car': 1}"
+11,"{'car': 2, 'traffic light': 4}"
+12,"{'car': 1, 'traffic light': 3}"
+13,{'traffic light': 3}
+14,"{'car': 2, 'traffic light': 3}"
+15,"{'car': 1, 'traffic light': 3}"
+16,{'traffic light': 2}
+17,"{'car': 2, 'traffic light': 3}"
+18,"{'traffic light': 2, 'car': 1}"
+19,"{'car': 1, 'traffic light': 3}"
+20,"{'traffic light': 1, 'car': 1}"
+21,"{'car': 1, 'traffic light': 2}"
+22,"{'car': 1, 'traffic light': 2}"
+23,"{'car': 4, 'traffic light': 2}"
+24,"{'car': 4, 'traffic light': 2}"
+25,"{'car': 3, 'traffic light': 1}"
+26,"{'car': 1, 'traffic light': 2}"
+27,"{'car': 1, 'traffic light': 1}"
+28,"{'car': 4, 'traffic light': 1}"
+29,"{'car': 4, 'traffic light': 1}"
+30,"{'car': 3, 'traffic light': 1}"
+31,"{'car': 2, 'traffic light': 1}"
+32,"{'car': 2, 'traffic light': 1}"
+33,"{'traffic light': 2, 'car': 3}"
+34,"{'traffic light': 1, 'car': 2}"
+35,"{'traffic light': 4, 'car': 2}"
+36,"{'car': 2, 'traffic light': 2}"
+37,"{'traffic light': 3, 'car': 2}"
+38,"{'traffic light': 3, 'car': 1}"
+39,"{'car': 2, 'traffic light': 4}"
+40,"{'traffic light': 4, 'car': 1}"
+41,"{'traffic light': 4, 'car': 2}"
+42,"{'car': 1, 'traffic light': 4}"
+43,"{'car': 2, 'traffic light': 4}"
+44,"{'car': 1, 'traffic light': 4}"
+45,"{'car': 2, 'traffic light': 4}"
+46,"{'car': 2, 'traffic light': 4}"
+47,"{'car': 4, 'traffic light': 4}"
+48,"{'car': 7, 'traffic light': 3}"
+49,"{'car': 4, 'traffic light': 3}"
+50,"{'car': 4, 'traffic light': 2}"
+51,"{'car': 2, 'traffic light': 2}"
+52,"{'car': 4, 'traffic light': 2}"
+53,"{'car': 2, 'traffic light': 2}"
+54,"{'car': 2, 'traffic light': 2}"
+55,"{'car': 2, 'traffic light': 1}"
+56,"{'car': 2, 'truck': 1}"
+57,"{'car': 3, 'truck': 1}"
+58,"{'car': 2, 'traffic light': 1}"
+59,"{'car': 1, 'traffic light': 1}"
+60,"{'car': 2, 'traffic light': 2}"
+61,"{'car': 1, 'traffic light': 2}"
+62,"{'traffic light': 3, 'car': 1}"
+63,{'traffic light': 1}
+64,"{'car': 1, 'traffic light': 1}"
+65,"{'car': 1, 'traffic light': 2}"
+66,{'traffic light': 2}
+67,{'traffic light': 3}
+68,{'traffic light': 1}
+69,{'traffic light': 1}
+70,{'traffic light': 1}
+71,"{'car': 1, 'traffic light': 1}"
+72,"{'traffic light': 1, 'car': 1}"
+73,"{'traffic light': 1, 'car': 1}"
+74,{'traffic light': 1}
+75,"{'car': 1, 'traffic light': 1}"
+76,"{'bus': 1, 'traffic light': 2, 'car': 2}"
+77,{'traffic light': 2}
+78,{'traffic light': 1}
+79,{'traffic light': 1}
+80,"{'traffic light': 1, 'car': 1}"
+81,{'traffic light': 3}
+82,"{'car': 2, 'traffic light': 3}"
+83,"{'car': 3, 'traffic light': 3}"
+84,"{'car': 2, 'traffic light': 4}"
+85,"{'car': 4, 'traffic light': 3}"
+86,"{'car': 5, 'traffic light': 2}"
+87,"{'car': 1, 'traffic light': 2}"
+88,"{'car': 3, 'traffic light': 3}"
+89,"{'car': 3, 'traffic light': 2}"
+90,"{'car': 2, 'traffic light': 2}"
+91,"{'car': 2, 'traffic light': 2}"
+92,"{'car': 2, 'traffic light': 2}"
+93,"{'car': 2, 'traffic light': 2}"
+94,"{'car': 3, 'traffic light': 2}"
+95,"{'car': 3, 'traffic light': 1}"
+96,"{'car': 3, 'traffic light': 1}"
+97,"{'car': 4, 'traffic light': 1}"
+98,"{'car': 3, 'traffic light': 1}"
+99,"{'traffic light': 1, 'car': 1}"
+100,"{'car': 1, 'traffic light': 2}"
+101,{'traffic light': 2}
+102,{'traffic light': 2}
+103,{'traffic light': 2}
+104,{'traffic light': 3}
+105,{'traffic light': 2}
+106,"{'traffic light': 2, 'car': 1}"
+107,{'traffic light': 2}
+108,{'traffic light': 2}
+109,"{'car': 1, 'traffic light': 3}"
+110,"{'traffic light': 3, 'train': 1}"
+111,{'traffic light': 3}
+112,"{'traffic light': 2, 'car': 2}"
+113,"{'car': 2, 'traffic light': 2}"
+114,"{'traffic light': 2, 'car': 1, 'train': 1}"
+115,"{'traffic light': 3, 'car': 1}"
+116,{'traffic light': 3}
+117,"{'car': 1, 'traffic light': 3}"
+118,"{'car': 1, 'traffic light': 3}"
+119,"{'car': 2, 'traffic light': 3}"
+120,"{'car': 1, 'traffic light': 4}"
+121,"{'car': 2, 'traffic light': 5}"
+122,"{'traffic light': 3, 'car': 2}"
+123,"{'traffic light': 3, 'car': 1}"
+124,"{'car': 3, 'traffic light': 2}"
+125,"{'traffic light': 3, 'car': 1}"
+126,{'traffic light': 2}
+127,{'traffic light': 2}
+128,"{'traffic light': 3, 'car': 1}"
+129,"{'traffic light': 3, 'car': 1}"
+130,"{'traffic light': 3, 'car': 2}"
+131,"{'car': 2, 'traffic light': 2}"
+132,"{'traffic light': 3, 'car': 1}"
+133,"{'train': 2, 'traffic light': 1}"
+134,"{'traffic light': 1, 'train': 2, 'car': 1}"
+135,"{'traffic light': 1, 'car': 2, 'train': 1}"
+136,"{'car': 2, 'traffic light': 1}"
+137,"{'car': 2, 'traffic light': 1}"
+138,"{'car': 2, 'traffic light': 2}"
+139,"{'car': 2, 'bus': 1, 'traffic light': 3}"
+140,"{'car': 2, 'bus': 1, 'traffic light': 1}"
+141,"{'car': 2, 'traffic light': 1}"
+142,"{'car': 2, 'traffic light': 1}"
+143,"{'car': 2, 'traffic light': 2}"
+144,"{'car': 2, 'traffic light': 1}"
+145,{'traffic light': 2}
+146,"{'car': 2, 'traffic light': 3}"
+147,"{'traffic light': 3, 'car': 1}"
+148,{'traffic light': 2}
+149,{'traffic light': 3}
+150,{'traffic light': 4}
+151,"{'car': 1, 'traffic light': 2}"
+152,"{'car': 3, 'traffic light': 3}"
+153,"{'car': 2, 'traffic light': 3}"
+154,{'traffic light': 1}
+155,{'traffic light': 4}
+156,{'traffic light': 2}
+157,{'traffic light': 1}
+158,{'traffic light': 2}
+159,{'traffic light': 2}
+160,{'traffic light': 2}
+161,{'traffic light': 2}
+162,{'traffic light': 2}
+163,{'traffic light': 2}
+164,{'traffic light': 2}
+165,{'traffic light': 2}
+166,{'traffic light': 2}
+167,{'traffic light': 2}
+168,{'traffic light': 1}
+169,{'traffic light': 2}
+170,"{'traffic light': 2, 'train': 1}"
+171,"{'train': 1, 'traffic light': 2}"
+172,"{'train': 1, 'traffic light': 1}"
+173,"{'train': 1, 'traffic light': 1}"
+174,{'traffic light': 2}
+175,"{'train': 1, 'traffic light': 2}"
+176,{'traffic light': 3}
+177,"{'traffic light': 3, 'train': 1}"
+178,{'traffic light': 3}
+179,{'traffic light': 3}
+180,{'traffic light': 2}
+181,{'traffic light': 3}
+182,"{'truck': 1, 'traffic light': 2}"
+183,{'traffic light': 2}
+184,"{'traffic light': 2, 'car': 1}"
+185,"{'traffic light': 3, 'car': 1}"
+186,{'traffic light': 2}
+187,"{'car': 2, 'traffic light': 3}"
+188,"{'car': 1, 'traffic light': 3}"
+189,"{'car': 1, 'traffic light': 2}"
+190,"{'car': 2, 'traffic light': 3}"
+191,"{'car': 2, 'traffic light': 2}"
+192,"{'car': 2, 'traffic light': 2}"
+193,"{'car': 2, 'traffic light': 2}"

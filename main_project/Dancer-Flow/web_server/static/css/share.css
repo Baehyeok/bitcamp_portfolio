@@ -1,0 +1,276 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+
+
+
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+
+    background-color: black;
+  }
+
+.col-md-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: center;
+}
+
+.contact-div{
+  margin-top: 10rem;
+  color: white;
+}
+
+.share-container{
+  margin: 3rem;
+}
+.contact-div .share-container h2{
+  font-weight: 600;
+}
+/* .heading_container{  
+  position : absolute;
+  top : 0rem;
+  padding: 2rem;
+} */
+.heading_container h3,h4,h5,h6{
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+
+.heading_container .share_user{
+  margin-bottom: 1rem;
+  /* border-bottom: 2px solid white; */
+}
+
+.share_main_text h3{
+  color: white;
+}
+
+  /* conteack_section part */
+.contact_section {
+  background-color: #164745;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+
+}
+
+.contact_section {
+  /* margin: 75px 0; */
+}
+
+.user_img{
+  width: 10%;
+  height: auto;
+  display: flex;
+}
+.user_video{
+  padding : 2rem;
+  width: 90%;
+  height: auto;
+  
+}
+.share_main_text{
+  margin-bottom: 3rem;
+}
+
+/* 작성란 안 글씨 색깔 */
+.contact_section .contact-form input.input_message {
+  height: 5rem;
+  border-radius: 1rem;
+}
+
+.contact_section .contact-form input::-webkit-input-placeholder {
+  color: #151515;
+}
+
+.contact_section .contact-form input:-ms-input-placeholder {
+  color: #151515;
+}
+
+.contact_section .contact-form input::-ms-input-placeholder {
+  color: #151515;
+}
+.contact_section .contact-form input::placeholder {
+  color: #151515;
+}
+
+/* contact section */
+.contact_section {
+  /* 오른쪽 백그라운드 배경설정 */
+  background: linear-gradient(to top, black, rgb(153, 0, 255));
+  /* background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%); */
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/*
+ .contact_section::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  height: 100.5%;
+  width: 40%;
+  background: black;
+  -webkit-clip-path: polygon(0 0, 95% 0, 65% 100%, 0% 100%);
+          clip-path: polygon(0 0, 95% 0, 65% 100%, 0% 100%);
+} 
+*/
+
+.contact_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+
+.contact_section .contact-form h5 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.contact_section .contact-form input {
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+}
+
+.contact_section .contact-form input.input_content {
+  height: 10rem;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+/* share 버튼 지정 */
+.w-btn-gra1 {
+  background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
+  color: white;
+  margin-top: 1rem;
+}
+.w-btn:active {
+transform: scale(1.5);
+}
+.w-btn:hover {
+letter-spacing: 0.4rem;
+/* transform: scale(1); */
+cursor: pointer;
+}
+.w-btn {
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+
+/* Polygon Chart */
+.polygon-chart{
+  text-align: center;
+}
+.polygon-chart-label{
+  position:relative;
+  bottom:-5rem;
+  color:#ffffff;
+}
+.label-head-body{
+  position:absolute;
+  top:-7rem;
+  left:13.5rem;
+}
+.label-left-arm{
+  position:absolute;
+  top:3rem;
+  left:-1rem;
+}
+.label-right-arm{
+  position:absolute;
+  top:3rem;
+  left:30rem;
+}
+.label-left-leg{
+  position:absolute;
+  bottom:-20rem;
+  left:6rem;
+}
+.label-right-leg{
+  position:absolute;
+  bottom:-20rem;
+  left:22rem;
+}
+
+@media (max-width: 992px) {
+    
+  .contact_section::before {
+      width: 53%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact_section .row {
+    margin-bottom:2rem;
+  }
+  .contact_section .detail-box{
+      
+      width: auto;
+      margin: 2rem;
+      display: flex;
+  }
+  .contact_section .detail-box .heading_container {
+      align-items: center;
+
+  }
+
+  .contact_section::before {
+      width: 100%;
+      height: 25%;
+      clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 15% 100%);
+  }
+
+
+}
+
+@media (max-width: 576px) {
+  .contact_section::before {
+      clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 15% 100%);
+
+  }
+}
+
+
+
+@media (max-width: 360px) {
+
+
+  .contact_section::before {
+      height: 26%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .share-container {
+      max-width: 1170px;
+  }
+}

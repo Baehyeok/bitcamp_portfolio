@@ -1,0 +1,139 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+/* wrapper */
+.body{
+font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+.class1 {
+    align-items: center;
+}
+.container{
+    align-items :right;
+}
+.row{
+    justify-content: center
+}
+.line-center{
+    display: flex ;
+    justify-content: center;
+}
+
+.pricing-card-area{
+  padding-top:5rem;
+}
+
+/* Option Card Styles */
+.single-card{
+  cursor:pointer;
+  
+  border-top: 1.7rem solid !important;
+  border-bottom: 1.7rem solid !important;
+  /* border-radius: 20px !important; */
+  border : #211A4D;
+}
+.pricing-card-area .single-card:hover{
+    padding-bottom: 0px;
+}
+
+.disable-option{
+  background-color: rgb(160, 160, 160) !important;
+  cursor : default !important;
+
+}
+.disable-option:before{
+  background-color: rgb(160, 160, 160) !important;
+  background: rgb(160, 160, 160) !important;
+}
+
+/* Button Styles */
+.w-btn-gra1 {
+  background: linear-gradient(-45deg, #1994af 0%, #a65bf8, #ffbb54 100%);
+  color: white;
+  margin-top: 1rem;
+  
+}
+.w-btn:active {
+  transform: scale(1.2);
+}
+.w-btn:hover {
+  letter-spacing: 1rem;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.w-btn {
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 1rem 3.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn{
+  background-color: purple;
+}
+.btn:hover{
+  color:#ffffff;
+}
+/* 버튼에 마우스를 올리면 변하는 색깔 */
+.btn::before{
+  background: linear-gradient(to right, black, purple);
+}
+
+.prev-next-btn-line{
+    margin-bottom : 10rem;
+}
+.select-btn-line{
+  visibility:visible !important; 
+  opacity:1 !important;
+  margin-bottom: 3rem;
+}
+
+
+/*
+  Selected Option Card Styles
+*/
+.item-focused{
+    background-color: rgb(193, 160, 217) !important;
+    border-top: 1.7rem solid !important;
+    border-bottom: 1.7rem solid !important;
+    /* border-radius: 20px !important; */
+    border-image: linear-gradient(to right, #ffbb54, #a65bf8, #32bbdc) !important;
+    border-image-slice: 1 !important;
+}
+.content-hide{
+    animation : fade-out 2s;
+    animation-fill-mode: forwards;
+    display: none;
+}
+.content-visible{
+    animation: fade-in 2s;
+    animation-fill-mode: forwards;
+    display: block;
+}
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+  
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+/* File Drop Styles */
+.file-drop-zone{
+  background-color: #C1A0D9;
+}
