@@ -25,8 +25,8 @@ python manage.py runserver
 - MMCV
 - MMDetection
 - MMPose
-- Django
-- DataBase :
+- Django : 3.2.3+ < 4.0.0
+- DataBase : firebase, SQLite
 
 <br>
 
